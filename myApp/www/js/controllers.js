@@ -2,7 +2,7 @@ angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope) {
 
-  $scope.message = `Hello, I'm Angel Contreras, My ID: 1061938`;
+  $scope.message = `Hello, I`;
 
 })
 
@@ -29,8 +29,4 @@ angular.module('starter.controllers', [])
   $scope.settings = {
     enableFriends: true
   };
-})
-
-.controller('FormCtrl', function($scope) {
-  $scope.message = 'funciona';
 });
